@@ -1,0 +1,167 @@
+body {
+    background-color: #fff;
+}
+.metrouicss .page {
+    width: 940px ;
+    margin: auto;
+    background-color: #fff;
+}
+.browsers-icons img {
+    float: left;
+    margin-right: 20px;
+}
+
+.metrouicss .page.snapped {
+  width: 25%;
+  height: 100%;
+  float: left;
+  border-right: 1px #ccc solid;
+}
+.metrouicss .page.fill {
+  width: 75%;
+  height: 100%;
+  float: right;
+  border-left: 1px #ccc solid;
+}
+
+.metrouicss .tile.half {
+  width: 155px;
+}
+
+.metrouicss .tile.half-vertiacal {
+  height: 155px;
+}
+
+.github-info {
+}
+
+
+#brand-name {
+    line-height: 24px;
+    margin-top: 2px;
+}
+
+ #panel {
+        width: 200px;
+        font-family: Arial, sans-serif;
+        font-size: 13px;
+        float: right;
+        margin: 10px;
+      }
+
+      #color-palette {
+        clear: both;
+      }
+
+      .color-button {
+        width: 14px;
+        height: 14px;
+        font-size: 0;
+        margin: 2px;
+        float: left;
+        cursor: pointer;
+      }
+
+      #delete-button {
+        margin-top: 5px;
+      }
+
+hr {
+    border: 0;
+    border-bottom: 1px #ddd dotted;
+    color: #ddd;
+    background-color: #ddd;
+}
+
+#social{
+    margin-bottom: 90px;
+}
+
+#carousel1 {
+    height: 242px;
+}
+
+#sponsorBlock {
+    height: 300px;
+}
+
+#page-index .carousel .control {
+    top: auto;
+    left: auto;
+    bottom: -40px;
+}
+#page-index .carousel .control.left {
+    right: 100px;
+}
+#page-index .carousel .control.right {
+    right: 30px;
+}
+
+.metrouicss .charms,
+.metrouicss .app-bar,
+.metrouicss .message-dialog,
+.metrouicss .error-bar,
+.metrouicss .warning-bar,
+.metrouicss .info-bar {
+    position: absolute;
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .metrouicss .page {
+        width: 724px;
+    }
+    .metrouicss .hero-unit > img {
+        zoom: .6;
+    }
+    .metrouicss .browsers-icons img {
+        zoom: .8;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .metrouicss .page {
+        width: 100%;
+    }
+
+    .metrouicss .hero-unit > img {
+        zoom: .6;
+    }
+
+    .metrouicss .modern-ui-logo {
+        width: 24px;
+        height: 24px;
+    }
+    .metrouicss .github-info {
+        margin-top: 5px;
+    }
+
+    .metrouicss a, .metrouicss .link {
+        font-size: 9pt;
+    }
+
+    .metrouicss h3 {
+        line-height: 11px;
+    }
+
+    .metrouicss .no-mobile {
+        display: none;
+    }
+
+    .metrouicss #carousel1 {
+        height: 300px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .metrouicss .hero-unit img {
+        display: none;
+    }
+
+    .metrouicss #jetbrains {
+        display: none;
+    }
+    .metrouicss #brand-name {
+        display: none;
+    }
+}
